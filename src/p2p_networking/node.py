@@ -1,6 +1,6 @@
-from abstract_classes import Transport, Discovery
+from p2p_networking.abstract_classes import Transport, Discovery
 import configparser
-import events
+from p2p_networking import events
 import os
 import uuid
 import asyncio

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "p2p-networking"
+version = "0.1.0"
+description = "Lightweight, fully decentralized async P2P framework for local networks."
+readme = "README.md"
+authors = [
+    {name = "Seki-Rin", email = "NikolayNikolaevichBlnv@gmail.com"},
+]
+license = {file = "LICENSE"}
+keywords = ["p2p", "networking", "asyncio", "fastapi", "websockets"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "netifaces",
+    "pydantic",
+    "websockets",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,5 +1,5 @@
-from abstract_classes import Discovery
-import events
+from p2p_networking.abstract_classes import Discovery
+from p2p_networking import events
 import asyncio
 import socket
 import logging

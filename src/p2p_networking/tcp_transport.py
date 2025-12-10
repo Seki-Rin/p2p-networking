@@ -1,6 +1,6 @@
-from abstract_classes import Transport
-import messages
-import events
+from p2p_networking.abstract_classes import Transport
+from p2p_networking import messages
+from p2p_networking import events
 import asyncio
 import logging
 

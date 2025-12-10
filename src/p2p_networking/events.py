@@ -1,5 +1,5 @@
 from collections import defaultdict
-import messages
+from p2p_networking import messages
 
 class Event:
     pass

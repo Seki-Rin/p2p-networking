@@ -1,9 +1,9 @@
-from net import Net
-from utils import get_main_local_ip
-import tcp_transport
-import broadcast_discovery
-import events
-import node
+from p2p_networking.net import Net
+from p2p_networking.utils import get_main_local_ip
+from p2p_networking import tcp_transport
+from p2p_networking import broadcast_discovery
+from p2p_networking import events
+from p2p_networking import node
 from pathlib import Path
 from fastapi import FastAPI, WebSocket, Request
 from fastapi.middleware.cors import CORSMiddleware
