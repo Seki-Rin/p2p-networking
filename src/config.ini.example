@@ -1,0 +1,5 @@
+[network]
+discoveryport = 50000
+transportport = 50001
+uid = f8458bd3-e967-4544-96ab-4953ed41a67c
+
