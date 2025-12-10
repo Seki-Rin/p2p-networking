@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import Any
 from p2p_networking import events
-import messages
+from p2p_networking import messages
 
 class Discovery(ABC):
 
