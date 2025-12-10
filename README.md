@@ -52,13 +52,14 @@ python3 -m venv venv
 venv\Scripts\activate
 ```
 4. Install dependencies:
+
 4.1 Install with C++ Build Tools:
 Install "Microsoft C++ Build tools v14.0" for compile `netifaces` framework.
 Then, install all dependencies:
 ```bash
 pip install .
 ```
-4.2 Use appropriate ".whl" for your system and python. You can download the pre-compiled wheel file for `netifaces` at: https://www.cgohlke.com
+4.2 Use appropriate `.whl` for your system and python. You can download the pre-compiled wheel file for `netifaces` at: https://www.cgohlke.com
 ```bash
 pip install path/to/your/version/netifaces.whl
 pip install .
