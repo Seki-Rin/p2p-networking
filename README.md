@@ -15,8 +15,6 @@ Provides peer discovery, direct TCP connectivity and reliable message delivery w
 
 ## How To Install
 
-Linux/Mac:
-
 1. Clone the repo:
 ```bash
 git clone https://github.com/Seki-Rin/p2p-networking.git
@@ -28,42 +26,31 @@ cd p2p-networking
 3. Create the virtual environment (recommended):
 ```bash
 python3 -m venv venv
+```
+4. Activate virtual environment:
+
+Linux:
+```bash
 source venv/bin/activate
 ```
-4. Install dependencies:
-```bash
-pip install .
-```
-
 
 Windows:
-
-1. Clone the repo:
 ```bash
-git clone https://github.com/Seki-Rin/p2p-networking.git
-```
-2. Navigate to the project folder:
-```bash
-cd p2p-networking
-```
-3. Create the virtual environment (recommended):
-```bash
-python3 -m venv venv
 venv\Scripts\activate
 ```
 4. Install dependencies:
 
-4.1 Install with C++ Build Tools:
-Install "Microsoft C++ Build tools v14.0" for compile `netifaces` framework.
-Then, install all dependencies:
+For Python 3.9 (or older), you can install all dependencies directly — no C++ build tools are required:
 ```bash
 pip install .
 ```
-4.2 Use appropriate `.whl` for your system and python. You can download the pre-compiled wheel file for `netifaces` at: https://www.cgohlke.com
-```bash
-pip install path/to/your/version/netifaces.whl
-pip install .
-```
+For Python 3.10+ netifaces not have precompiled wheels for your Python version.
+In this case, you need to install C/C++ build tools first:
+Windows: Microsoft C++ Build Tools v14+
+Linux: `build-essential` and `python3-dev`
+macOS: Xcode Command Line Tools
+
+
 
 # How to run
 1. Activate the virtual environment (if it's not activated):
