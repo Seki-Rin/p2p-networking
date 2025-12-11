@@ -38,7 +38,7 @@ Windows:
 ```bash
 venv\Scripts\activate
 ```
-4. Install dependencies:
+5. Install dependencies:
 
 For Python 3.9 (or older), you can install all dependencies directly — no C++ build tools are required:
 ```bash
