@@ -47,11 +47,11 @@ pip install .
 For Python 3.10+ netifaces not have precompiled wheels for your Python version.
 In this case, you need to install C/C++ build tools first:
 
-Windows: Microsoft C++ Build Tools v14+
+Windows: `Microsoft C++ Build Tools v14+`
 
 Linux: `build-essential` and `python3-dev`
 
-macOS: Xcode Command Line Tools
+macOS: `Xcode Command Line Tools`
 
 
 
