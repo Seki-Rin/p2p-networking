@@ -10,7 +10,7 @@ Provides peer discovery, direct TCP connectivity and reliable message delivery w
 - Persistent UUID node identifier (config.ini)  
 - Length-prefixed message framing (4-byte big-endian)  
 - Pure asyncio implementation  
-- Minimal reference GUI (FastAPI + WebSocket) for demo purposes  
+- Minimal demonstration web interface (FastAPI + WebSocket) 
 - Dependencies: `fastapi`, `uvicorn[standard]`, `netifaces`, `pydantic`, `websockets`
 
 ## How To Install
